@@ -1,0 +1,20 @@
+[
+    {
+        "question":"Mi a célja az alt attribútumnak a képeken?",
+        "mode":"könnyű",
+        "type":"is-html",
+        "answer":"Az alt attribútum alternatív információt nyújt a képhez, ha a felhasználó nem tudja megtekinteni. Az alt attribútumot minden kép leírására kell használni, kivéve azokat, amelyek csak dekorációs célt szolgálnak, ebben az esetben üresen kell hagyni."
+    },
+    {
+        "question":"Mi az a CSS BEM?",
+        "mode":"könnyű",
+        "type":"is-css",
+        "answer":"A BEM módszertan a CSS-osztályok elnevezési konvenciója annak érdekében, hogy a CSS karbantarthatóbb legyen azáltal, hogy névtereket határoz meg a hatóköri problémák megoldására. A BEM a Block Element Modifier rövidítése, ami magyarázata a szerkezetének. A blokk egy önálló komponens, amely projekteken keresztül újrafelhasználható, és „névtérként” működik az alkomponensek (elemek) számára. A módosítók zászlóként használatosak, ha egy blokk vagy elem egy bizonyos állapotban van, vagy szerkezete vagy stílusa eltérő."
+    },
+    {
+        "question":"Mi a különbség a szinkron és az aszinkron kód között a JavaScriptben?",
+        "mode":"közepes",
+        "type":"is-js",
+        "answer":"A szinkron azt jelenti, hogy minden műveletnek meg kell várnia az előző befejezését. Az aszinkron azt jelenti, hogy egy művelet megtörténhet, miközben egy másik művelet még folyamatban van. A JavaScriptben az összes kód szinkron az egyszálú jellege miatt. A program részét nem képező aszinkron műveletek (például az XMLHttpRequest vagy a setTimeout) azonban a fő szálon kívül kerülnek feldolgozásra, mivel natív kód (böngésző API-k) vezérli őket, de a program visszahívási részei továbbra is szinkronban hajtódnak végre."
+    }
+]
